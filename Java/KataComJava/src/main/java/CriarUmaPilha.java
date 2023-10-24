@@ -1,23 +1,39 @@
 import java.util.Stack;
 
 public class CriarUmaPilha {
-    public static void main(String[] args) {
-        // Criar uma nova pilha
-        Stack<Integer> stack = new Stack<>();
+    int topo;
+    int capacidade;
+    int[] pilha;
 
-        // Puxando o elemento do topo da pilha
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
-        stack.push(4);
-
-
-        while(!stack.isEmpty()) {
-            System.out.println(stack.pop());
-        }
+    public CriarUmaPilha() {
+        topo = -1;
+        capacidade = 10;
+        pilha = new int[capacidade];
     }
 
-    public boolean isEmpty() {
-        return true;
+    public boolean isEmpty(){
+        return topo == -1;
+    }
+
+    public boolean isFull(){
+        return topo == capacidade -1;
+    }
+
+    public int push(int data){
+        if (isFull()){
+            System.out.println("Pilha esta cheia");
+        }
+        return pilha[++topo] = data;
+    }
+
+    public int pop(){
+        if (isEmpty()){
+            System.out.println("Pilha está vazia");
+        }
+        return pilha[topo--];
+    }
+
+    public int peek(){
+        return pilha[topo];
     }
 }
