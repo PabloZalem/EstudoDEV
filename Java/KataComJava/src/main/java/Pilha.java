@@ -1,14 +1,12 @@
-import java.util.Stack;
-
-public class CriarUmaPilha {
+public class Pilha {
     int topo;
     int capacidade;
-    int[] pilha;
+    int[] elemento;
 
-    public CriarUmaPilha() {
+    public Pilha() {
         topo = -1;
         capacidade = 10;
-        pilha = new int[capacidade];
+        elemento = new int[capacidade];
     }
 
     public boolean isEmpty(){
@@ -23,17 +21,17 @@ public class CriarUmaPilha {
         if (isFull()){
             System.out.println("Pilha esta cheia");
         }
-        return pilha[++topo] = data;
+        return elemento[++topo] = data;
     }
 
     public int pop(){
         if (isEmpty()){
             System.out.println("Pilha está vazia");
         }
-        return pilha[topo--];
+        return elemento[topo--];
     }
 
     public int peek(){
-        return pilha[topo];
+        return elemento[topo];
     }
 }
