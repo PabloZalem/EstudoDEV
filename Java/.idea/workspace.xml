@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8071bec6-4450-4b27-b2d5-4a5ad6e1388f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KataComJava/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/KataComJava/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KataComJava/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KataComJava/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KataComJava/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KataComJava/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KataComJava/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KataComJava/KataComJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KataComJava/KataComJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KataComJava/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KataComJava/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/csv_converter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/csv_converter/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
