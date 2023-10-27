@@ -1,6 +1,8 @@
+package stack;
+
 public class Main {
     public static void main(String[] args) {
-        CriarUmaPilha pilha = new CriarUmaPilha();
+        Pilha pilha = new Pilha();
         pilha.push(34);
         pilha.push(314);
         pilha.push(1);

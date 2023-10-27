@@ -1,11 +1,11 @@
-import java.util.Stack;
+package stack;
 
-public class CriarUmaPilha {
+public class Pilha {
     int topo;
     int capacidade;
     int[] pilha;
 
-    public CriarUmaPilha() {
+    public Pilha() {
         topo = -1;
         capacidade = 10;
         pilha = new int[capacidade];

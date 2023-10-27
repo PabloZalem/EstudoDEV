@@ -9,7 +9,7 @@ public class TestKata {
 
     @Test
     void contextLoads() {
-        var stack = new CriarUmaPilha();
+        var stack = new Pilha();
         assertTrue(stack.isEmpty());
     }
 }
